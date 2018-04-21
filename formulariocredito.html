@@ -5,10 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="BanQ - Descubre el verdadero valor de tu hogar.">
+    <meta name="description" content="HipoTech - Descubre el verdadero valor de tu hogar.">
     <meta name="keywords" content="Avaluos, Prestamos, Creditos, Avaluo Gratis">
     <link rel="icon" href="asset/img/favicon.png" type="image/gif">
-    <title>BanQ - Tu avaluo gratis</title>
+    <title>HipoTech - Tu avaluo gratis</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="asset/css/fontawesome-all.min.css">
@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="sitelogo">
-                            <a href="index.html"><img src="asset/img/LogoBanQ_50.jpg" alt="" /></a>
+                            <a href="index.html"><img src="asset/img/LOGO.jpg" alt="" /></a>
                         </div>
                     </div>
                     <div class="col-md-8">
@@ -64,7 +64,7 @@
                                 </div>
                                 <div class="content">
                                     <p>
-                                        <span>Escríbenos: </span> <a href="banqcolombia@gmail.com">banqcolombia@gmail.com</a>
+                                        <span>Escríbenos: </span> <a href="hipotechhelp@gmail.com">hipotechhelp@gmail.com</a>
                                     </p>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@
                                 <li><a href="about.html">Quienes Somos</a></li>
                                 <li><a href="#">Servicios</a>
                                     <ul>
-                                        <li><a href="formularioavaluo.html">Avaluo gratis</a></li>
+                                        <li><a href="formularioavaluo.html">¿Conoces el valor de tu casa?</a></li>
                                         <li><a href="prestamogarantia.html">Crédito de libre inversión con garantía</a></li>
                                     </ul>
                                 </li>
@@ -100,21 +100,6 @@
         </div>
     </header>
     <!-- end of header area -->
-    <div class="page-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>Credito libre</h2>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Credito libre</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- end of page header -->
     <section class="section-padding contact-us-padding">
         <div class="container">
@@ -131,22 +116,26 @@
                         <div class="row list-input">
                             <div class="col-md-6 mr0">
                                 <div class="single-get-touch">
+                                    <label for="nombre">Nombre</label>
                                     <input type="text" name="nombre" placeholder="Nombre" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single-get-touch">
+                                    <label for="apellido">Apellido</label>
                                     <input type="text" name="apellido" placeholder="Apellido" required>
                                 </div>
                             </div>
                             <div class="col-md-6 mr0">
                                 <div class="single-get-touch">
+                                    <label for="email">Correo electrónico</label>
                                     <input type="email" name="email" placeholder="Correo electrónico" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single-get-touch">
-                                    <input type="number" name="telefono" placeholder="Telefono" required>
+                                    <label for="Teléfono">Teléfono</label>
+                                    <input type="number" name="telefono" placeholder="Teléfono" required>
                                 </div>
                             </div>
                             <div class="col-md-6 mr0">
@@ -157,7 +146,8 @@
                             </div>
                             <div class="col-md-6 mr0">
                                 <div class="single-get-touch">
-                                    <input type="number" name="ingresos" placeholder="¿Cuáles son tus ingresos mensuales aproximados?" required>
+                                    <label for="certtrad">Numero certificado tradición y libertad</label>
+                                    <input type="date" name="nacimiento" placeholder="Numero certificado">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -165,12 +155,18 @@
                                     <label for="situacion">Situación profesional</label>
                                     <select name="situacion" required>
                                         <option value="Empleado">Empleado</option>
-                                        <option value="Independiente">Independiente</option>
                                         <option value="Empresario">Empresario</option>
                                         <option value="Funcionario publico">Funcionario publico</option>
+                                        <option value="Independiente">Independiente</option>
                                         <option value="Pensionado">Pensionado</option>
                                         <option value="Otro">Otro</option>
                                     </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mr0">
+                                <div class="single-get-touch">
+                                    <label for="nacimiento">Ingresos mensuales</label>
+                                    <input type="number" name="ingresos" placeholder="¿Cuáles son tus ingresos mensuales aproximados?" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -188,9 +184,22 @@
                                     </select>
                                 </div>
                             </div>
+                            <div class="col-md-6">
+                                <p>Estoy de acuerdo con la <a href="politica.html">política de manejo de la información</a></p>
+                                <div class="single-get-check" name="tiempo" required>
+                                    <label class="radiobox">Si
+                                        <input type="checkbox" name="Si" checked="checked">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radiobox">No
+                                        <input type="checkbox" name="no">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
                             <div class="col-md-12">
                                 <div class="single-get-touch">
-                                    <button type="submit" name="submit" class="btn btn-default btn-sm">Enviar</button>
+                                    <button type="submit" name="submit" class="btn btn-default btn-sm">ENVIAR</button>
                                 </div>
                             </div>
                         </div>
@@ -206,11 +215,11 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="footer-widget" >
                         <div class="footer-title">
-                            <img src="asset/img/plantg.png" alt="" />
+                            <img src="asset/img/hipo.png" alt="" />
                         </div>
-                        <p>BanQ es una manera diferente de concebir nuestra relación con el dinero, es un banco creado para ayudarte a ti a lograr tus sueños.</p>
+                        <p>HipoTech es una manera diferente de concebir nuestra relación con el dinero, nuestro objetivo es ayudarte a ti a cumplir tus sueños.</p>
                         <div class="mail">
-                            <span>Preguntas :</span><a href="banqcolombia@gmail.com">banqcolombia@gmail.com</a>
+                            <span>Preguntas :</span><a href="ayudaHipoTech@gmail.com">ayudaHipoTech@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -220,8 +229,8 @@
                             <h4>Soluciones</h4>
                         </div>
                         <ul>
-                            <li><a href="formularioavaluo.html">Avaluo Gratis</a></li>
-                            <li><a href="prestamogarantia.html">Prestamo de Libre Inversion</a></li>
+                            <li><a href="formularioavaluo.html">Descubre el valor real de tu casa</a></li>
+                            <li><a href="prestamogarantia.html">Crédito de Libre Inversión</a></li>
                             <li><a href="politica.html">Política del tratamiento de la información</a></li>
                         </ul>
                     </div>
@@ -251,7 +260,7 @@
             <div class="row">
                 <div class="col-md-6 text-left">
                     <div class="copyright-text">
-                        <p><i class="fa fa-copyright"></i> 2018 BanQ</p>
+                        <p><i class="fa fa-copyright"></i> 2018 HipoTech</p>
                     </div>
                 </div>
                 <div class="col-md-6 text-right">
